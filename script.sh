@@ -1,23 +1,8 @@
 #!/bin/bash
 #
 # 
-# 
+# Mod by ILHAM MUHAMMAD
 # ==================================================
-echo -e $red[+] $cyan"$HOSTNAME uptime is "$red[+]$cyan;uptime | awk /'up/ {print $3,$4,$5,$6,$7,$8,$9,$10}'
-uname -r
-uname -v -s
-echo -e $red[+]$cyan Today :$red[+]$cyan 
-date
-echo -e $green'================================================================================'
-#Figlet nama
-echo -e $green 
-figlet -f slant "# Ilham Muhammad #"
-echo -e $cyan     '_________________<? WELCOME USER VPS ?>_________________'
-echo "  ----------------------"
-;
-echo "Perintah / Command VPS admin Haris 
-@Debian7 ILHAMNET
-"
 
 # initialisasi var
 export DEBIAN_FRONTEND=noninteractive
