@@ -133,7 +133,7 @@ service webmin restart
 
 # download script
 cd /usr/bin
-wget -O menu "https://raw.githubusercontent.com/ilhamnet/debian7/master/menu.sh"
+wget -O menu "https://raw.githubusercontent.com/ilhamnet/debian7/master/menu2.sh"
 wget -O usernew "https://raw.githubusercontent.com/ilhamnet/debian7/master/usernew.sh"
 wget -O trial "https://raw.githubusercontent.com/ilhamnet/debian7/master/trial.sh"
 wget -O hapus "https://raw.githubusercontent.com/ilhamnet/debian7/master/deletuser.sh"
