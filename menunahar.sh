@@ -21,7 +21,7 @@ function create_user() {
 	echo "Port    : 443/22/80"
 	echo "Squid   : 8080/3128"
 	echo "========================="
-	echo "Scrip by Nahar , gunakan akun dengan bijak"
+	echo "Scrip by IlhamMuhammad , gunakan akun dengan bijak"
 	echo "========================="
 }
 
@@ -75,9 +75,9 @@ function used_data(){
 	clear
 
 	echo "--------------- Selamat datang di Server - IP: $myip ---------------"
-	echo "Scrip By      : Nahar"
-	echo "Facebook       : www.facebook.com/bintara.lnd"
-	echo "WA       : 082293117450"
+	echo "Scrip By      : IlhamMuhammad"
+	echo "Facebook       : https://www.facebook.com/Ilham02muhammad"
+	echo "WA       : 081360800433"
 	cname=$( awk -F: '/model name/ {name=$2} END {print name}' /proc/cpuinfo )
 	cores=$( awk -F: '/model name/ {core++} END {print core}' /proc/cpuinfo )
 	freq=$( awk -F: ' /cpu MHz/ {freq=$2} END {print freq}' /proc/cpuinfo )
@@ -181,12 +181,12 @@ function used_data(){
         15)
             echo "Servie dropbear .................tunggu yah xixiixxii"
             service dropbear restart
-            echo "Service done ..Script by Nahar"
+            echo "Service done ..Script by IlhamMuhammad"
             ;;
         16)	
             echo "Service Openvpn restart .................tunggu yah xixiixxii"
             service openvpn restart
-            echo "Restart openvpn selesai @Script By Nahar"
+            echo "Restart openvpn selesai @Script By IlhamMuhammad"
 			;;	
         17)	
             echo "Reset pas user experied"
@@ -196,7 +196,7 @@ function used_data(){
         18)	
             echo "SPeed Tes server"
             ./speedtest.py --share
-            echo "Hasil Speed tes diatas script by Nahar"
+            echo "Hasil Speed tes diatas script by IlhamMuhammad"
 			;;	
         19)	
             echo "Tendang user nakal"
