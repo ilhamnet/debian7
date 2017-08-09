@@ -19,13 +19,12 @@ date
 echo -e $green'================================================================================'
 #Figlet nama
 echo -e $green 
-figlet -f slant "# Ilham Muhammad #"
+figlet -f slant "# Welcome To My Server #"
 echo -e $cyan     '_________________<? WELCOME USER VPS ?>_________________'
-echo "  ----------------------"
-;
-echo "Perintah / Command VPS admin Haris 
-@Debian7 ILHAMNET
-
+echo "  ----------------------";
+echo "Perintah / Command VPS admin Harnet
+@Debian7 Ilham Muhammad
+";
 #Menu
 
 echo -e "* menu      : menampilkan daftar perintah"
