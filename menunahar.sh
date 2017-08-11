@@ -75,7 +75,8 @@ function used_data(){
 	clear
 
 	echo "--------------- Selamat datang di Server - IP: $myip ---------------"
-	echo "Scrip By      : IlhamMuhammad"
+	echo "Scrip By      : Nahar"
+	echo "Mod By      : IlhamMuhammad"
 	echo "Facebook       : https://www.facebook.com/Ilham02muhammad"
 	echo "WA       : 081360800433"
 	cname=$( awk -F: '/model name/ {name=$2} END {print name}' /proc/cpuinfo )
