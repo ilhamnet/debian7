@@ -19,7 +19,7 @@ date
 echo -e $green'================================================================================'
 #Figlet nama
 echo -e $green 
-figlet -f slant "# Ilham Muhammad #"
+figlet -f smslant "# Ilham Muhammad #"
 echo -e $cyan     '_________________<? WELCOME USER VPS ?>_________________'
 echo "  ----------------------"
 ;
