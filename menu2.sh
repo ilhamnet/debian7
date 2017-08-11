@@ -19,7 +19,7 @@ date
 echo -e $green'================================================================================'
 #Figlet nama
 echo -e $green 
-figlet -f slant "# Welcome To My Server #"
+figlet -f smslant "# Welcome To My Server #"
 echo -e $cyan     '_________________<? WELCOME USER VPS ?>_________________'
 echo "  ----------------------";
 echo "Perintah / Command VPS admin Harnet
